@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,300;1,900&family=REM:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+@font-face {
+    font-family: 'cartoon';
+    src: url("../fonts/find_cartoon/Find\ Cartoon.ttf");
+}
+
+header {
+background-image: url("../img/fondo.jpg");
+background-size: cover;
+text-align: center;
+color: #ffffff;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.profile-image img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ .profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.content-hobbie div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-hobbie img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.skills{
+    text-align: center;
+}
+.title-about{
+    text-align: center;
+}
+
+nav a{
+    color: #ffffff;
+  
+}
+
+h3{
+    color: #ffffff;
+    background-color: #292929;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'cartoon', sans-serif; 
+}
+
+ul li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+li span{
+    font-weight: 700;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+}
+
+progress{
+    background-color: #DAA520;
+    margin-right: 15px;
+}
+i{
+    color: #292929;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;  
+    
+}
+
+footer li{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
